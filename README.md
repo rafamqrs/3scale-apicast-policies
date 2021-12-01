@@ -1,7 +1,9 @@
 # 3Scale Reverse Proxy - URL Rewriting
 On this repository you will find the two differents configurations:
 1. [First show you how to setup 1:1 Product and Backend with differents paths.](https://github.com/rafamqrs/3scale-apicast-policies/tree/main/1:1product_backend)
-2. Second show you how to setup 1:N Product and Backends.
+2. [Second show you how to setup 1:N Product and Backends.](https://github.com/rafamqrs/3scale-apicast-policies/tree/main/1:N-product_backend)
+
+
 
 ### URL Rewriting
 
