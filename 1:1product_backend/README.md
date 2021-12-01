@@ -2,16 +2,16 @@
 
 ## Scenario 1
 ### *1 Product with 1 Backend, but with differents paths in Backend.*
-![1 Product 1 Backend](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/image/3scale-proxy1-1.png?raw=true)
+![1 Product 1 Backend](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/1:1product_backend/image/3scale-proxy1-1.png?raw=true)
 
 1. Add the Backend if you don't have one
    1. Product -> Integration -> Backends
-    ![Backends](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/image/backends.png?raw=true)
+    ![Backends](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/1:1product_backend/image/backends.png?raw=true)
 2. Add URL_REWRITING Policy
    1. Product -> Integration -> Policies -> Add Policy -> URL Rewriting
-    ![Policies](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/image/policies.png?raw=true)
+    ![Policies](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/1:1product_backend/image/policies.png?raw=true)
 3. Setup the New Policy Adding the Commands and Click on Update Policy button.
-    ![Policies](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/image/url_rewriting.png?raw=true)   
+    ![Policies](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/1:1product_backend/image/url_rewriting.png?raw=true)   
 4. Update Policy Chain
 5. Go to Configuration and Promote the API.
 6. Test the proxy using the path listuser it will be redirect to /save.
