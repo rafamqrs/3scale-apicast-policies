@@ -9,10 +9,10 @@
     ![Backends](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/1:N-product_backend/image/backends.png?raw=true)
 2. Add URL_REWRITING Policy
    1. Product -> Integration -> Policies -> Add Policy -> URL Rewriting
-    ![Policies](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/1:1product_backend/image/policies.png?raw=true)
+    ![Policies](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/1:N-product_backend/image/policies.png?raw=true)
 3. Setup the New Policy Adding two Commands and Click on Update Policy button.
-    ![Policies](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/1:1product_backend/image/policy1.png?raw=true)
-    ![Policies](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/1:1product_backend/image/policy2.png?raw=true)
+    ![Policies](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/1:N-product_backend/image/policy1.png?raw=true)
+    ![Policies](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/1:N-product_backend/image/policy2.png?raw=true)
 4. Update Policy Chain
 5. Go to Configuration and Promote the API.
 6. Test the proxy using the path user it will be redirect to /saveuser in echo-api.
