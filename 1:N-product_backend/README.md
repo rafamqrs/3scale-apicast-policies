@@ -1,10 +1,10 @@
 # 3Scale Reverse Proxy
 
-## Scenario 1
+## Scenario 2
 ### *1 Product with N Backend*
 ![1 Product N Backends](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/1:N-product_backend/image/3scale-proxy.drawio.png?raw=true)
 
-1. Add the Backend if you don't have one
+1. Add the Backend if you don't have one, but here we have to set a different path for each backend.
    1. Product -> Integration -> Backends
     ![Backends](https://github.com/rafamqrs/3scale-apicast-policies/blob/main/1:N-product_backend/image/backends.png?raw=true)
 2. Add URL_REWRITING Policy
